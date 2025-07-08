@@ -48,4 +48,4 @@ echo "####################"
 echo '##   Top 5 CPU    ##'
 echo "####################"
 
-ps aux --sort -%cpu | head -n 6 | awk '{print $1 "\t" $2 "\t" $3 "\t" $11}
+ps aux --sort -%cpu | head -n 6 | awk '{print $1 "\t" $2 "\t" $3 "\t" $11}'
